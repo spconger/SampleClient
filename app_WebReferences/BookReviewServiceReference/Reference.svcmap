@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="60ed6dd0-98bf-40f7-9e7a-bb3f50a29092" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:45399/SampleBookReviewService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="SampleBookReviewService.xsd" MetadataType="Schema" ID="d32bc7de-af54-4740-a35c-ccd274b46b00" SourceId="1" SourceUrl="http://localhost:45399/SampleBookReviewService.svc?xsd=xsd1" />
+    <MetadataFile FileName="SampleBookReviewService1.xsd" MetadataType="Schema" ID="7c45fb0b-aeff-4f2e-b150-116194f8fc8a" SourceId="1" SourceUrl="http://localhost:45399/SampleBookReviewService.svc?xsd=xsd3" />
+    <MetadataFile FileName="SampleBookReviewService2.xsd" MetadataType="Schema" ID="4747c1ea-0287-44f8-8059-6f014f04c582" SourceId="1" SourceUrl="http://localhost:45399/SampleBookReviewService.svc?xsd=xsd0" />
+    <MetadataFile FileName="SampleBookReviewService.disco" MetadataType="Disco" ID="91f78818-9a0e-4344-9195-9ca2abfbe072" SourceId="1" SourceUrl="http://localhost:45399/SampleBookReviewService.svc?disco" />
+    <MetadataFile FileName="SampleBookReviewService.wsdl" MetadataType="Wsdl" ID="30e2576c-e11e-4bad-9f9c-77641ab53675" SourceId="1" SourceUrl="http://localhost:45399/SampleBookReviewService.svc?wsdl" />
+    <MetadataFile FileName="SampleBookReviewService3.xsd" MetadataType="Schema" ID="aa947435-a296-4638-a35e-03d7e39ebcd4" SourceId="1" SourceUrl="http://localhost:45399/SampleBookReviewService.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
